@@ -102,6 +102,7 @@
 \end{frame}
 
 \section{Background}
+\subsection{Recap}
 \begin{frame}
 	\frametitle{Authors}
 	\begin{figure}[h]
@@ -201,6 +202,10 @@
 			\end{itemize}
 		\end{itemize}
 	\end{itemize}
+\pause
+\begin{center}
+	\fontsize{20pt}{\baselineskip}\selectfont {\color{red} No force and steal buffer pool policy is commonly used in modern DBMSs.}
+\end{center}
 \end{frame}
 
 \begin{frame}
@@ -271,7 +276,6 @@
 	\end{itemize}	
 \end{frame}
 
-
 \begin{frame}
 	\frametitle{POSIX API, Cont.}
 	\begin{itemize}
@@ -305,19 +309,40 @@
 	\begin{center}
 		\fontsize{20pt}{\baselineskip}\selectfont {\color{red}The DBMS seems no longer needs to manage its own buffer pool, as it cedes this responsibility to the OS.  }
 	\end{center}
+\end{frame}
 	
+\subsection{What's the Problems We Concern? }
+\begin{frame}
+	\frametitle{When Building a Database, We Need \footnote[frame]{\href{https://github.com/liu-jianhao/CMU-15-445/blob/627707b1b996ea923c9e0cfb90cb3cfe73f3aa98/Lab/src/buffer/buffer_pool_manager.cpp\#L63}{CMU-15-445/645 Buffer Pool Management}}}
+	\begin{itemize}
+		\item Reading the data from disk.
+		\item Concurrency between different threads reading the same data.
+		\item Caching and buffer management.
+		\item Eviction of pages from memory.
+		\item Playing nice with other processes in the machine.
+		\item Tracking dirty pages and writing to disk.
+	\end{itemize}
 \end{frame}
 
 \section{Problem with MMAP: The Four Deadly Sins}
-\begin{frame}
+\begin{frame}{allowframebreaks}
 	\frametitle{Transactional Safety}
 	\begin{itemize}
+		\item A database needs to know when the data is persisted to disk. When using mmap, we explicitly give up that knowledge.
+		\begin{itemize}
+			\item[$\ast$] Single writer and multiple readers are common in embedded systems, e.g. LMDB, LevelDB, Lucene.
+			\item[$\ast$] The interleaving writes is a must for Postgres due that may have a transaction spanning multiple network calls.
+		\end{itemize}
 		\item The challenges inherent with guaranteeing transactional safety of modified pages in mmap-based DBMSs are well-known.
 		\begin{itemize}
-			\item[$\ast$] Due to transparent paging, {\color{red}the OS can flush a dirty page} to secondary storage {\color{red}at any time}, irrespective of whether the writing transaction has committed. 
+			\item[$\ast$] Due to transparent paging, {\color{red}the OS can flush a dirty page (steal)} to secondary storage {\color{red}at any time}, irrespective of whether the writing transaction has committed. 
 			\item[$\ast$] The DBMS cannot prevent these flushes and receives {\color{red}no warning} when they occur.
 		\end{itemize}
 	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Handling Updates When it May Use MMAP}
 	\begin{itemize}
 		\item Three categories for handling updates:
 		\begin{itemize}
@@ -328,15 +353,15 @@
 				\item<4->[\checkmark] To provide durability, the DBMS must use a write-ahead log (WAL) to record changes.
 				\item<5->[\checkmark] DBMS applies the committed changes to the primary copy using msync.
 			\end{itemize}
-			\item<6->[$\ast$]  User space CoW
+			\item<6->[$\ast$] Common Used User space CoW
 			\begin{itemize}
 				\item<7->[\checkmark] Copy the mmap-backed memory page to user buffer.
 				\item<8->[\checkmark] Update and recording the WAL logging.
-				\item<9->[\checkmark] Copy the modified pages back to the mmap-backed memory.
+				\item<9->[\checkmark] Copy the modified pages back to the mmap-backed memory. (When do the DBMSs copy user-space content to mmap-backed memory? \pause {\color{red}Concurrent transactions are all end!})
 			\end{itemize}
 			\item<10->[$\ast$]  Shadow Paging
 		\end{itemize}
-	\end{itemize}ß
+	\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -365,18 +390,30 @@
 \begin{frame}
 	\frametitle{Error Handling}
 	\begin{itemize}
-		\item page-level checksums
-		\item gracefully handling I/O errors
+		\item Page-level checksums
+		\item Gracefully handling I/O errors
+		\begin{itemize}
+			\item[$\ast$] Error return value for system calls.
+			\item[$\ast$] SIGBUS.
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Performance Issues}
 	\begin{itemize}
-		\item page table contention
-		\item single-threaded page evictionand for larger-than- memory DBMS workloads on high-bandwidth secondary storage devices.
-		\item TLB shootdowns.
-		
+		\item Page table contention
+		\begin{itemize}
+			\item[$\ast$] PTE and PMD split spin\_lock. \footnote[frame]{\href{https://www.kernel.org/doc/html/latest/vm/split_page_table_lock.html}{Page Table Split Lock}}
+		\end{itemize}
+		\item Single-threaded page evictionand for larger-than- memory DBMS workloads on high-bandwidth secondary storage devices.
+		\item TLB shootdowns
+		\begin{itemize}
+			\item[$\ast$] Fast I/O
+			\item[$\ast$] Working set that significantly exceeds memory
+			\item[$\ast$] No other work that needs to be done for processing a request
+			
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 
@@ -411,8 +448,9 @@
 \end{frame}
 
 \section{Conclusions}
+\subsection{Authors Opinions}
 \begin{frame}
-	\frametitle{Conclusions}
+	\frametitle{MMAP is Nerver Used!!!}
 	\begin{itemize}
 		\item mmap is not a suitable replacement for a traditional buffer pool.
 		\item When you should not use mmap in your DBMS:
@@ -435,14 +473,22 @@
 	\end{itemize}
 \end{frame}
 
-\section{References}
+\subsection{My Opinions}
 \begin{frame}
-	\frametitle{References}
-	\begin{thebibliography}{1234567891011}
-		\bibitem {1} \href{https://ravendb.net/articles/re-are-you-sure-you-want-to-use-mmap-in-your-database-management-system}{RavenDB Response}
-		\bibitem{2} \href{https://news.ycombinator.com/item?id=29936104}{Community Comments}
-	\end{thebibliography}
+	\frametitle{Unfair Comparision}
+	\begin{itemize}
+		\item The problem exists, but the reasons and experiments are not sufficient.
+		\item There are also many problems with buffer pool management.
+	\end{itemize}
 \end{frame}
+%\section{References}
+%\begin{frame}
+%	\frametitle{References}
+%	\begin{thebibliography}{1234567891011}
+%		\bibitem {1} \href{https://ayende.com/blog/196161-C/re-are-you-sure-you-want-to-use-mmap-in-your-database-management-system}{RavenDB Response}
+%		\bibitem{2} \href{https://news.ycombinator.com/item?id=29936104}{Community Comments}
+%	\end{thebibliography}
+%\end{frame}
 
 \section{Acknowledgements and Questions}
 \begin{frame}

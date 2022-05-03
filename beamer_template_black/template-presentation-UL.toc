@@ -1,7 +1,10 @@
 \babel@toc {french}{}\relax 
 \beamer@sectionintoc {1}{Background}{3}{0}{1}
-\beamer@sectionintoc {2}{Problem with MMAP: The Four Deadly Sins}{27}{0}{2}
-\beamer@sectionintoc {3}{Experimental Analysis}{42}{0}{3}
-\beamer@sectionintoc {4}{Conclusions}{46}{0}{4}
-\beamer@sectionintoc {5}{References}{55}{0}{5}
-\beamer@sectionintoc {6}{Acknowledgements and Questions}{57}{0}{6}
+\beamer@subsectionintoc {1}{1}{Recap}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{What's the Problems We Concern? }{29}{0}{1}
+\beamer@sectionintoc {2}{Problem with MMAP: The Four Deadly Sins}{31}{0}{2}
+\beamer@sectionintoc {3}{Experimental Analysis}{47}{0}{3}
+\beamer@sectionintoc {4}{Conclusions}{51}{0}{4}
+\beamer@subsectionintoc {4}{1}{Authors Opinions}{52}{0}{4}
+\beamer@subsectionintoc {4}{2}{My Opinions}{61}{0}{4}
+\beamer@sectionintoc {5}{Acknowledgements and Questions}{63}{0}{5}

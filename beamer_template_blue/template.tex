@@ -359,7 +359,18 @@
 	\end{itemize}	
 \end{frame}
 
-
+\begin{frame}
+	\frametitle{What's the problems?}
+	\begin{itemize}
+		\item Reading the data from disk
+		\item Concurrency between different threads reading the same data
+		\item Caching and buffer management
+		\item Eviction of pages from memory
+		\item Playing nice with other processes in the machine
+		\item Tracking dirty pages and writing to disk
+		
+	\end{itemize}
+\end{frame}
 \begin{frame}
 	\frametitle{POSIX API, Cont.}
 	\begin{itemize}
@@ -527,7 +538,7 @@
 \begin{frame}
 	\frametitle{References}
 	\begin{thebibliography}{1234567891011}
-		\bibitem {1} \href{https://ravendb.net/articles/re-are-you-sure-you-want-to-use-mmap-in-your-database-management-system}{RavenDB Response}
+		\bibitem {1} \href{https://ayende.com/blog/196161-C/re-are-you-sure-you-want-to-use-mmap-in-your-database-management-system}{RavenDB Response}
 		\bibitem{2} \href{https://news.ycombinator.com/item?id=29936104}{Community Comments}
 	\end{thebibliography}
 \end{frame}

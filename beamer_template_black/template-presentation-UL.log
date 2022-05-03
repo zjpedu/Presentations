@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.29)  3 MAY 2022 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.29)  3 MAY 2022 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1298,7 +1298,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 96.
-<images/Greenplum.png, id=50, 194.4063pt x 48.18pt>
+<images/Greenplum.png, id=62, 194.4063pt x 48.18pt>
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
 Package pdftex.def Info: images/Greenplum.png  used on input line 96.
@@ -1321,60 +1321,67 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 104.
 
 [3
 
-]
-<images/author.png, id=100, 932.48375pt x 107.40125pt>
-File: images/author.png Graphic file (type png)
-<use images/author.png>
-Package pdftex.def Info: images/author.png  used on input line 128.
-(pdftex.def)             Requested size: 340.7553pt x 39.24782pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 128.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 128.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 128.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 128.
+] (./template-presentation-UL.toc)
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 128.
+Package pdftex.def Info: images/Greenplum.png  used on input line 105.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [4
 
- <./images/author.png>]
-<images/Storage.png, id=116, 855.195pt x 521.95pt>
-File: images/Storage.png Graphic file (type png)
-<use images/Storage.png>
-Package pdftex.def Info: images/Storage.png  used on input line 135.
-(pdftex.def)             Requested size: 340.7553pt x 207.9719pt.
+]
+<images/author.png, id=137, 932.48375pt x 107.40125pt>
+File: images/author.png Graphic file (type png)
+<use images/author.png>
+Package pdftex.def Info: images/author.png  used on input line 129.
+(pdftex.def)             Requested size: 340.7553pt x 39.24782pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 129.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 129.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 129.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 129.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 135.
+Package pdftex.def Info: images/Greenplum.png  used on input line 129.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [5
 
+ <./images/author.png>]
+<images/Storage.png, id=152, 855.195pt x 521.95pt>
+File: images/Storage.png Graphic file (type png)
+<use images/Storage.png>
+Package pdftex.def Info: images/Storage.png  used on input line 136.
+(pdftex.def)             Requested size: 340.7553pt x 207.9719pt.
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 136.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [6
+
  <./images/Storage.png (PNG copy)>]
-<images/Arch.png, id=124, 559.3698pt x 400.3758pt>
+<images/Arch.png, id=161, 559.3698pt x 400.3758pt>
 File: images/Arch.png Graphic file (type png)
 <use images/Arch.png>
-Package pdftex.def Info: images/Arch.png  used on input line 160.
+Package pdftex.def Info: images/Arch.png  used on input line 161.
 (pdftex.def)             Requested size: 170.37764pt x 121.94643pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 160.
+Package pdftex.def Info: images/Greenplum.png  used on input line 161.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [6
+ [7
 
  <./images/Arch.png>]
 File: images/Arch.png Graphic file (type png)
 <use images/Arch.png>
-Package pdftex.def Info: images/Arch.png  used on input line 160.
+Package pdftex.def Info: images/Arch.png  used on input line 161.
 (pdftex.def)             Requested size: 170.37764pt x 121.94643pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 160.
+Package pdftex.def Info: images/Greenplum.png  used on input line 161.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [7
+ [8
 
 ]
 (/usr/local/texlive/2022/texmf-dist/tex/latex/ucs/data/uni-32.def
@@ -1382,457 +1389,490 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 182.
-(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [8
-
-]
-File: images/Greenplum.png Graphic file (type png)
-<use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 182.
+Package pdftex.def Info: images/Greenplum.png  used on input line 183.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [9
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 182.
+Package pdftex.def Info: images/Greenplum.png  used on input line 183.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [10
+
+]
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 183.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
 
-[10
+[11
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 204.
+(Font)              <8> on input line 209.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 204.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 209.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 204.
-(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [11
-
-]
-File: images/Greenplum.png Graphic file (type png)
-<use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 204.
+Package pdftex.def Info: images/Greenplum.png  used on input line 209.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [12
 
 ]
-<images/buffer.png, id=180, 659.46375pt x 258.21469pt>
-File: images/buffer.png Graphic file (type png)
-<use images/buffer.png>
-Package pdftex.def Info: images/buffer.png  used on input line 215.
-(pdftex.def)             Requested size: 340.7553pt x 133.4253pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 215.
+Package pdftex.def Info: images/Greenplum.png  used on input line 209.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [13
 
- <./images/buffer.png>]
-<images/buffer1.png, id=190, 963.6pt x 542.025pt>
-File: images/buffer1.png Graphic file (type png)
-<use images/buffer1.png>
-Package pdftex.def Info: images/buffer1.png  used on input line 226.
-(pdftex.def)             Requested size: 326.98453pt x 183.92215pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 226.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 226.
+]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 226.
+Package pdftex.def Info: images/Greenplum.png  used on input line 209.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [14
 
+]
+<images/buffer.png, id=234, 659.46375pt x 258.21469pt>
+File: images/buffer.png Graphic file (type png)
+<use images/buffer.png>
+Package pdftex.def Info: images/buffer.png  used on input line 220.
+(pdftex.def)             Requested size: 340.7553pt x 133.4253pt.
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 220.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [15
+
+ <./images/buffer.png>]
+<images/buffer1.png, id=244, 963.6pt x 542.025pt>
+File: images/buffer1.png Graphic file (type png)
+<use images/buffer1.png>
+Package pdftex.def Info: images/buffer1.png  used on input line 231.
+(pdftex.def)             Requested size: 326.98453pt x 183.92215pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 231.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 231.
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 231.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [16
+
  <./images/buffer1.png>]
-<images/sts.png, id=199, 695.59875pt x 273.02pt>
+<images/sts.png, id=254, 695.59875pt x 273.02pt>
 File: images/sts.png Graphic file (type png)
 <use images/sts.png>
-Package pdftex.def Info: images/sts.png  used on input line 244.
+Package pdftex.def Info: images/sts.png  used on input line 249.
 (pdftex.def)             Requested size: 258.14651pt x 101.31993pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 244.
+Package pdftex.def Info: images/Greenplum.png  used on input line 249.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [15
+
+[17
 
  <./images/sts.png>]
 File: images/sts.png Graphic file (type png)
 <use images/sts.png>
-Package pdftex.def Info: images/sts.png  used on input line 244.
+Package pdftex.def Info: images/sts.png  used on input line 249.
 (pdftex.def)             Requested size: 258.14651pt x 101.31993pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 244.
-(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [16
-
-]
-File: images/sts.png Graphic file (type png)
-<use images/sts.png>
-Package pdftex.def Info: images/sts.png  used on input line 244.
-(pdftex.def)             Requested size: 258.14651pt x 101.31993pt.
-File: images/Greenplum.png Graphic file (type png)
-<use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 244.
-(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [17
-
-]
-File: images/sts.png Graphic file (type png)
-<use images/sts.png>
-Package pdftex.def Info: images/sts.png  used on input line 244.
-(pdftex.def)             Requested size: 258.14651pt x 101.31993pt.
-File: images/Greenplum.png Graphic file (type png)
-<use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 244.
+Package pdftex.def Info: images/Greenplum.png  used on input line 249.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [18
 
 ]
-<images/shm.png, id=234, 1526.70375pt x 757.83125pt>
-File: images/shm.png Graphic file (type png)
-<use images/shm.png>
-Package pdftex.def Info: images/shm.png  used on input line 254.
-(pdftex.def)             Requested size: 243.14648pt x 120.68886pt.
+File: images/sts.png Graphic file (type png)
+<use images/sts.png>
+Package pdftex.def Info: images/sts.png  used on input line 249.
+(pdftex.def)             Requested size: 258.14651pt x 101.31993pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 254.
+Package pdftex.def Info: images/Greenplum.png  used on input line 249.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [19
 
- <./images/shm.png>]
-<images/stonebraker.png, id=245, 251.94125pt x 137.51375pt>
-File: images/stonebraker.png Graphic file (type png)
-<use images/stonebraker.png>
-Package pdftex.def Info: images/stonebraker.png  used on input line 272.
-(pdftex.def)             Requested size: 162.09766pt x 88.47641pt.
+]
+File: images/sts.png Graphic file (type png)
+<use images/sts.png>
+Package pdftex.def Info: images/sts.png  used on input line 249.
+(pdftex.def)             Requested size: 258.14651pt x 101.31993pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 272.
+Package pdftex.def Info: images/Greenplum.png  used on input line 249.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [20
 
- <./images/stonebraker.png>]
-<images/readahead.png, id=256, 4270.95625pt x 1188.44pt>
-File: images/readahead.png Graphic file (type png)
-<use images/readahead.png>
-Package pdftex.def Info: images/readahead.png  used on input line 286.
-(pdftex.def)             Requested size: 320.95515pt x 89.29236pt.
+]
+<images/shm.png, id=294, 1526.70375pt x 757.83125pt>
+File: images/shm.png Graphic file (type png)
+<use images/shm.png>
+Package pdftex.def Info: images/shm.png  used on input line 259.
+(pdftex.def)             Requested size: 243.14648pt x 120.68886pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 286.
+Package pdftex.def Info: images/Greenplum.png  used on input line 259.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [21
 
+ <./images/shm.png>]
+<images/stonebraker.png, id=306, 251.94125pt x 137.51375pt>
+File: images/stonebraker.png Graphic file (type png)
+<use images/stonebraker.png>
+Package pdftex.def Info: images/stonebraker.png  used on input line 277.
+(pdftex.def)             Requested size: 162.09766pt x 88.47641pt.
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 277.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [22
+
+ <./images/stonebraker.png>]
+<images/readahead.png, id=318, 4270.95625pt x 1188.44pt>
+File: images/readahead.png Graphic file (type png)
+<use images/readahead.png>
+Package pdftex.def Info: images/readahead.png  used on input line 290.
+(pdftex.def)             Requested size: 320.95515pt x 89.29236pt.
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 290.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [23
+
  <./images/readahead.png>]
-<images/mmap.png, id=267, 271.0125pt x 224.84pt>
+<images/mmap.png, id=330, 271.0125pt x 224.84pt>
 File: images/mmap.png Graphic file (type png)
 <use images/mmap.png>
-Package pdftex.def Info: images/mmap.png  used on input line 301.
+Package pdftex.def Info: images/mmap.png  used on input line 305.
 (pdftex.def)             Requested size: 120.47047pt x 99.9454pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 301.
+Package pdftex.def Info: images/Greenplum.png  used on input line 305.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [22
+ [24
 
  <./images/mmap.png>]
 File: images/mmap.png Graphic file (type png)
 <use images/mmap.png>
-Package pdftex.def Info: images/mmap.png  used on input line 301.
+Package pdftex.def Info: images/mmap.png  used on input line 305.
 (pdftex.def)             Requested size: 120.47047pt x 99.9454pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 301.
+Package pdftex.def Info: images/Greenplum.png  used on input line 305.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [23
+ [25
 
 ]
 File: images/mmap.png Graphic file (type png)
 <use images/mmap.png>
-Package pdftex.def Info: images/mmap.png  used on input line 301.
+Package pdftex.def Info: images/mmap.png  used on input line 305.
 (pdftex.def)             Requested size: 120.47047pt x 99.9454pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 301.
+Package pdftex.def Info: images/Greenplum.png  used on input line 305.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [24
+
+[26
 
 ]
 File: images/mmap.png Graphic file (type png)
 <use images/mmap.png>
-Package pdftex.def Info: images/mmap.png  used on input line 301.
+Package pdftex.def Info: images/mmap.png  used on input line 305.
 (pdftex.def)             Requested size: 120.47047pt x 99.9454pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 301.
-(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
-
-[25
-
-]
-File: images/Greenplum.png Graphic file (type png)
-<use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 309.
-(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [26
-
-] (./template-presentation-UL.toc)
-File: images/Greenplum.png Graphic file (type png)
-<use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 311.
+Package pdftex.def Info: images/Greenplum.png  used on input line 305.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [27
 
 ]
-(/usr/local/texlive/2022/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 312.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [28
 
-]
+] (./template-presentation-UL.toc)
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 314.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [29
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 325.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
-
-[30
+ [30
 
 ]
+(./template-presentation-UL.toc)
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 327.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [31
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 342.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [32
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [33
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [34
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [35
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [36
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 340.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [37
 
 ]
-<images/shadow.pdf, id=395, 453.02248pt x 342.68826pt>
-File: images/shadow.pdf Graphic file (type pdf)
-<use images/shadow.pdf>
-Package pdftex.def Info: images/shadow.pdf  used on input line 351.
-(pdftex.def)             Requested size: 227.62204pt x 172.18558pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 351.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [38
 
- <./images/shadow.pdf>]
+]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 363.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [39
+
+[39
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 371.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
-
-[40
+ [40
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 381.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [41
 
-] (./template-presentation-UL.toc)
+]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 383.
+Package pdftex.def Info: images/Greenplum.png  used on input line 365.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [42
 
 ]
-<images/rr.png, id=475, 451.6875pt x 194.7275pt>
-File: images/rr.png Graphic file (type png)
-<use images/rr.png>
-Package pdftex.def Info: images/rr.png  used on input line 394.
-(pdftex.def)             Requested size: 258.14651pt x 111.29591pt.
+<images/shadow.pdf, id=491, 453.02248pt x 342.68826pt>
+File: images/shadow.pdf Graphic file (type pdf)
+<use images/shadow.pdf>
+Package pdftex.def Info: images/shadow.pdf  used on input line 376.
+(pdftex.def)             Requested size: 227.62204pt x 172.18558pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 394.
+Package pdftex.def Info: images/Greenplum.png  used on input line 376.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [43
 
- <./images/rr.png>]
-<images/rr_tlb.png, id=486, 442.65375pt x 192.72pt>
-File: images/rr_tlb.png Graphic file (type png)
-<use images/rr_tlb.png>
-Package pdftex.def Info: images/rr_tlb.png  used on input line 404.
-(pdftex.def)             Requested size: 258.14651pt x 112.3952pt.
+ <./images/shadow.pdf>]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 404.
+Package pdftex.def Info: images/Greenplum.png  used on input line 388.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [44
-
- <./images/rr_tlb.png>]
-<images/ss.png, id=495, 477.785pt x 440.64626pt>
-File: images/ss.png Graphic file (type png)
-<use images/ss.png>
-Package pdftex.def Info: images/ss.png  used on input line 411.
-(pdftex.def)             Requested size: 223.72487pt x 206.33054pt.
-File: images/Greenplum.png Graphic file (type png)
-<use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 411.
-(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
- [45
-
- <./images/ss.png>] (./template-presentation-UL.toc)
-File: images/Greenplum.png Graphic file (type png)
-<use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 413.
-(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
-
-[46
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 436.
+Package pdftex.def Info: images/Greenplum.png  used on input line 400.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [45
+
+]
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 418.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [46
+
+]
+(./template-presentation-UL.toc)
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 420.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [47
 
 ]
+<images/rr.png, id=572, 451.6875pt x 194.7275pt>
+File: images/rr.png Graphic file (type png)
+<use images/rr.png>
+Package pdftex.def Info: images/rr.png  used on input line 431.
+(pdftex.def)             Requested size: 258.14651pt x 111.29591pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 436.
+Package pdftex.def Info: images/Greenplum.png  used on input line 431.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [48
 
-]
+ <./images/rr.png>]
+<images/rr_tlb.png, id=582, 442.65375pt x 192.72pt>
+File: images/rr_tlb.png Graphic file (type png)
+<use images/rr_tlb.png>
+Package pdftex.def Info: images/rr_tlb.png  used on input line 441.
+(pdftex.def)             Requested size: 258.14651pt x 112.3952pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 436.
+Package pdftex.def Info: images/Greenplum.png  used on input line 441.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [49
 
-]
+ <./images/rr_tlb.png>]
+<images/ss.png, id=592, 477.785pt x 440.64626pt>
+File: images/ss.png Graphic file (type png)
+<use images/ss.png>
+Package pdftex.def Info: images/ss.png  used on input line 448.
+(pdftex.def)             Requested size: 223.72487pt x 206.33054pt.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 436.
+Package pdftex.def Info: images/Greenplum.png  used on input line 448.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [50
 
-]
+ <./images/ss.png>] (./template-presentation-UL.toc)
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 436.
+Package pdftex.def Info: images/Greenplum.png  used on input line 450.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [51
 
 ]
+(./template-presentation-UL.toc)
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 436.
+Package pdftex.def Info: images/Greenplum.png  used on input line 451.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [52
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 436.
+Package pdftex.def Info: images/Greenplum.png  used on input line 474.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [53
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 436.
+Package pdftex.def Info: images/Greenplum.png  used on input line 474.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [54
-
-] (./template-presentation-UL.toc)
-File: images/Greenplum.png Graphic file (type png)
-<use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 438.
-(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
-
-[55
 
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 445.
+Package pdftex.def Info: images/Greenplum.png  used on input line 474.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [55
+
+]
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 474.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [56
 
- </usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] (
-./template-presentation-UL.toc)
+]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 447.
+Package pdftex.def Info: images/Greenplum.png  used on input line 474.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [57
 
 ]
-<images/thanks.png, id=617, 70.74852pt x 143.77927pt>
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 474.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [58
+
+]
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 474.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [59
+
+]
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 474.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+
+[60
+
+] (./template-presentation-UL.toc)
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 476.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [61
+
+]
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 483.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [62
+
+] (./template-presentation-UL.toc)
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 493.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [63
+
+]
+<images/thanks.png, id=728, 70.74852pt x 143.77927pt>
 File: images/thanks.png Graphic file (type png)
 <use images/thanks.png>
-Package pdftex.def Info: images/thanks.png  used on input line 463.
+Package pdftex.def Info: images/thanks.png  used on input line 509.
 (pdftex.def)             Requested size: 56.9055pt x 115.64882pt.
- [58
+ [64
 
  <./images/thanks.png>]
 \tf@nav=\write6
@@ -1844,20 +1884,19 @@ Package pdftex.def Info: images/thanks.png  used on input line 463.
 \tf@snm=\write8
 \openout8 = `template-presentation-UL.snm'.
 
-
-(./template-presentation-UL.aux)
+ (./template-presentation-UL.aux)
 Package rerunfilecheck Info: File `template-presentation-UL.out' has not change
 d.
-(rerunfilecheck)             Checksum: BE93155550CEA1F4AE479115A4900122;890.
+(rerunfilecheck)             Checksum: C3502AD94844DCF5FF0658BBFFB5CE56;1369.
  ) 
 Here is how much of TeX's memory you used:
- 27366 strings out of 478268
- 515365 string characters out of 5846347
- 778082 words of memory out of 5000000
- 44792 multiletter control sequences out of 15000+600000
+ 26926 strings out of 478268
+ 511215 string characters out of 5846347
+ 776051 words of memory out of 5000000
+ 44336 multiletter control sequences out of 15000+600000
  554837 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,471b,809s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,471b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 22/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2022/texmf-d
@@ -1871,10 +1910,10 @@ f-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/font
 s/type1/public/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
 lic/lm/lmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb>
-Output written on template-presentation-UL.pdf (58 pages, 1642737 bytes).
+Output written on template-presentation-UL.pdf (64 pages, 1651892 bytes).
 PDF statistics:
- 705 PDF objects out of 1000 (max. 8388607)
- 549 compressed objects within 6 object streams
- 125 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 818 PDF objects out of 1000 (max. 8388607)
+ 657 compressed objects within 7 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 
