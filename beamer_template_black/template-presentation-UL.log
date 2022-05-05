@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.29)  3 MAY 2022 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.29)  4 MAY 2022 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1287,16 +1287,16 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 
 (./template-presentation-UL.nav)
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-96.
+54.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 54.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 96.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 96.
 <images/Greenplum.png, id=62, 194.4063pt x 48.18pt>
 File: images/Greenplum.png Graphic file (type png)
@@ -1329,7 +1329,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 105.
  [4
 
 ]
-<images/author.png, id=137, 932.48375pt x 107.40125pt>
+<images/author.png, id=139, 932.48375pt x 107.40125pt>
 File: images/author.png Graphic file (type png)
 <use images/author.png>
 Package pdftex.def Info: images/author.png  used on input line 129.
@@ -1342,6 +1342,10 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 129.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 129.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 129.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 129.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
 Package pdftex.def Info: images/Greenplum.png  used on input line 129.
@@ -1349,7 +1353,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 129.
  [5
 
  <./images/author.png>]
-<images/Storage.png, id=152, 855.195pt x 521.95pt>
+<images/Storage.png, id=155, 855.195pt x 521.95pt>
 File: images/Storage.png Graphic file (type png)
 <use images/Storage.png>
 Package pdftex.def Info: images/Storage.png  used on input line 136.
@@ -1361,7 +1365,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 136.
  [6
 
  <./images/Storage.png (PNG copy)>]
-<images/Arch.png, id=161, 559.3698pt x 400.3758pt>
+<images/Arch.png, id=164, 559.3698pt x 400.3758pt>
 File: images/Arch.png Graphic file (type png)
 <use images/Arch.png>
 Package pdftex.def Info: images/Arch.png  used on input line 161.
@@ -1434,7 +1438,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 209.
  [14
 
 ]
-<images/buffer.png, id=234, 659.46375pt x 258.21469pt>
+<images/buffer.png, id=237, 659.46375pt x 258.21469pt>
 File: images/buffer.png Graphic file (type png)
 <use images/buffer.png>
 Package pdftex.def Info: images/buffer.png  used on input line 220.
@@ -1446,15 +1450,11 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 220.
  [15
 
  <./images/buffer.png>]
-<images/buffer1.png, id=244, 963.6pt x 542.025pt>
+<images/buffer1.png, id=247, 963.6pt x 542.025pt>
 File: images/buffer1.png Graphic file (type png)
 <use images/buffer1.png>
 Package pdftex.def Info: images/buffer1.png  used on input line 231.
 (pdftex.def)             Requested size: 326.98453pt x 183.92215pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 231.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 231.
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
 Package pdftex.def Info: images/Greenplum.png  used on input line 231.
@@ -1462,7 +1462,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 231.
  [16
 
  <./images/buffer1.png>]
-<images/sts.png, id=254, 695.59875pt x 273.02pt>
+<images/sts.png, id=257, 695.59875pt x 273.02pt>
 File: images/sts.png Graphic file (type png)
 <use images/sts.png>
 Package pdftex.def Info: images/sts.png  used on input line 249.
@@ -1508,7 +1508,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 249.
  [20
 
 ]
-<images/shm.png, id=294, 1526.70375pt x 757.83125pt>
+<images/shm.png, id=297, 1526.70375pt x 757.83125pt>
 File: images/shm.png Graphic file (type png)
 <use images/shm.png>
 Package pdftex.def Info: images/shm.png  used on input line 259.
@@ -1520,7 +1520,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 259.
  [21
 
  <./images/shm.png>]
-<images/stonebraker.png, id=306, 251.94125pt x 137.51375pt>
+<images/stonebraker.png, id=309, 251.94125pt x 137.51375pt>
 File: images/stonebraker.png Graphic file (type png)
 <use images/stonebraker.png>
 Package pdftex.def Info: images/stonebraker.png  used on input line 277.
@@ -1532,7 +1532,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 277.
  [22
 
  <./images/stonebraker.png>]
-<images/readahead.png, id=318, 4270.95625pt x 1188.44pt>
+<images/readahead.png, id=321, 4270.95625pt x 1188.44pt>
 File: images/readahead.png Graphic file (type png)
 <use images/readahead.png>
 Package pdftex.def Info: images/readahead.png  used on input line 290.
@@ -1544,7 +1544,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 290.
  [23
 
  <./images/readahead.png>]
-<images/mmap.png, id=330, 271.0125pt x 224.84pt>
+<images/mmap.png, id=333, 271.0125pt x 224.84pt>
 File: images/mmap.png Graphic file (type png)
 <use images/mmap.png>
 Package pdftex.def Info: images/mmap.png  used on input line 305.
@@ -1697,7 +1697,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 365.
  [42
 
 ]
-<images/shadow.pdf, id=491, 453.02248pt x 342.68826pt>
+<images/shadow.pdf, id=494, 453.02248pt x 342.68826pt>
 File: images/shadow.pdf Graphic file (type pdf)
 <use images/shadow.pdf>
 Package pdftex.def Info: images/shadow.pdf  used on input line 376.
@@ -1738,7 +1738,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 420.
  [47
 
 ]
-<images/rr.png, id=572, 451.6875pt x 194.7275pt>
+<images/rr.png, id=575, 451.6875pt x 194.7275pt>
 File: images/rr.png Graphic file (type png)
 <use images/rr.png>
 Package pdftex.def Info: images/rr.png  used on input line 431.
@@ -1750,7 +1750,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 431.
  [48
 
  <./images/rr.png>]
-<images/rr_tlb.png, id=582, 442.65375pt x 192.72pt>
+<images/rr_tlb.png, id=585, 442.65375pt x 192.72pt>
 File: images/rr_tlb.png Graphic file (type png)
 <use images/rr_tlb.png>
 Package pdftex.def Info: images/rr_tlb.png  used on input line 441.
@@ -1762,7 +1762,7 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 441.
  [49
 
  <./images/rr_tlb.png>]
-<images/ss.png, id=592, 477.785pt x 440.64626pt>
+<images/ss.png, id=595, 477.785pt x 440.64626pt>
 File: images/ss.png Graphic file (type png)
 <use images/ss.png>
 Package pdftex.def Info: images/ss.png  used on input line 448.
@@ -1855,24 +1855,39 @@ Package pdftex.def Info: images/Greenplum.png  used on input line 476.
 ]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 483.
+Package pdftex.def Info: images/Greenplum.png  used on input line 484.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [62
 
-] (./template-presentation-UL.toc)
+]
 File: images/Greenplum.png Graphic file (type png)
 <use images/Greenplum.png>
-Package pdftex.def Info: images/Greenplum.png  used on input line 493.
+Package pdftex.def Info: images/Greenplum.png  used on input line 484.
 (pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
  [63
 
 ]
-<images/thanks.png, id=728, 70.74852pt x 143.77927pt>
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 484.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [64
+
+]
+(./template-presentation-UL.toc)
+File: images/Greenplum.png Graphic file (type png)
+<use images/Greenplum.png>
+Package pdftex.def Info: images/Greenplum.png  used on input line 494.
+(pdftex.def)             Requested size: 85.35826pt x 21.15514pt.
+ [65
+
+]
+<images/thanks.png, id=748, 70.74852pt x 143.77927pt>
 File: images/thanks.png Graphic file (type png)
 <use images/thanks.png>
-Package pdftex.def Info: images/thanks.png  used on input line 509.
+Package pdftex.def Info: images/thanks.png  used on input line 510.
 (pdftex.def)             Requested size: 56.9055pt x 115.64882pt.
- [64
+ [66
 
  <./images/thanks.png>]
 \tf@nav=\write6
@@ -1884,36 +1899,42 @@ Package pdftex.def Info: images/thanks.png  used on input line 509.
 \tf@snm=\write8
 \openout8 = `template-presentation-UL.snm'.
 
- (./template-presentation-UL.aux)
+
+(./template-presentation-UL.aux)
 Package rerunfilecheck Info: File `template-presentation-UL.out' has not change
 d.
 (rerunfilecheck)             Checksum: C3502AD94844DCF5FF0658BBFFB5CE56;1369.
  ) 
 Here is how much of TeX's memory you used:
- 26926 strings out of 478268
- 511215 string characters out of 5846347
- 776051 words of memory out of 5000000
+ 26931 strings out of 478268
+ 511265 string characters out of 5846347
+ 776027 words of memory out of 5000000
  44336 multiletter control sequences out of 15000+600000
  554837 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,471b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
-22/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2022/texmf-d
-ist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2022/texmf-dist/fonts/type
-1/public/lm/lmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/l
-m/lmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.p
-fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2022/texm
-f-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/font
-s/type1/public/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
-lic/lm/lmsy9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msam10.pfb>
-Output written on template-presentation-UL.pdf (64 pages, 1651892 bytes).
+ 128i,18n,122p,471b,811s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Navigation67} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
+xlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2022
+/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2022/texmf-dis
+t/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/
+public/lm/lmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/
+lmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy9.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msa
+m10.pfb>
+Output written on template-presentation-UL.pdf (66 pages, 1659705 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 657 compressed objects within 7 object streams
- 138 named destinations out of 1000 (max. 500000)
+ 845 PDF objects out of 1000 (max. 8388607)
+ 679 compressed objects within 7 object streams
+ 143 named destinations out of 1000 (max. 500000)
  255 words of extra memory for PDF output out of 10000 (max. 10000000)
 

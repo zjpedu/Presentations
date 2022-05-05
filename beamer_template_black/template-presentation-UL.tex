@@ -39,9 +39,9 @@
 }
 \usetheme{default}
 \author{Junpeng Zhu}
-\date[Apr, 28, 2022] % (optional)
-{Apr, 28, 2022}
-\title[2022 Greenplum TechTalk (GPTT'22)]{Are You Sure You Want to Use MMAP in Your Database Management System?}
+\date[May, 5, 2022] % (optional)
+{May, 5, 2022}
+\title[MMAP = $\ddot\smile$]{Are You Sure You Want to Use MMAP in Your Database Management System?}
 \subtitle{MMAP = $\ddot\smile$}
 
 \setbeamertemplate{frametitle}
@@ -104,7 +104,7 @@
 \section{Background}
 \subsection{Recap}
 \begin{frame}
-	\frametitle{Authors}
+	\frametitle{Authors \footnote[frame]{\href{http://www.cidrdb.org/cidr2022/papers/p13-crotty.pdf}{CIDR'22 Paper}}}
 	\begin{figure}[h]
 		\includegraphics[width=0.99\linewidth]{images/author.png}
 	\end{figure}
@@ -477,8 +477,9 @@
 \begin{frame}
 	\frametitle{Unfair Comparision}
 	\begin{itemize}
-		\item The problem exists, but the reasons and experiments are not sufficient.
-		\item There are also many problems with buffer pool management.
+		\item<1-> The problem exists, but the reasons and experiments are not sufficient.
+		\item<2-> There are also many problems with buffer pool management.
+		\item<3-> DBs have better knowledge of workloads and access pattern than OS. But the OS knows more knowledges for the processes. {\color{red}The DB is not the only process running on the machine especially the cloud environment}.
 	\end{itemize}
 \end{frame}
 %\section{References}
